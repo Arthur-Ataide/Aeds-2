@@ -1,4 +1,4 @@
-#include "ArvoreBi.c"
+#include "BST.h"
 
 int main(){
 
@@ -47,7 +47,8 @@ int main(){
         }
 
         if (ordena == 2){
-            printf("Saindo da ordenacao\n");
+            printf("Saindo...\n");
+            break;
         }
 
         if (ordena != 1 && ordena != 2){

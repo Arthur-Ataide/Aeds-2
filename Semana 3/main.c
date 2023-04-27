@@ -108,7 +108,7 @@ int main(){
                 case 7:
                     Media(&no, &media, cont, soma);
                     Compara(&no, media, &contador);
-                    printf("A media eh %d\n", media);
+                    printf("A media eh %lf\n", media);
                     printf("Tem %d alunos com a media\n", contador);
                     break;
 

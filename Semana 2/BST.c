@@ -1,4 +1,4 @@
-#include "ArvoreBi.h"
+#include "BST.h"
 
 void inicializa(TipoApontador *no){
     *no = NULL;
@@ -27,20 +27,21 @@ void insere(TipoApontador *no, int num){
     }
 }
 
-void Ordem (TipoApontador *no){
-    if (*no != NULL){
-        Ordem(&((*no)->Esq));
-        printf("%d ", (*no)->num);
-        Ordem(&((*no)->Dir));
-    }
-
-}
 void PreOrdem (TipoApontador *no){
     if (*no != NULL){
         printf("%d ", (*no)->num);
         PreOrdem(&((*no)->Esq));
         PreOrdem(&((*no)->Dir));
     }
+}
+
+void Ordem (TipoApontador *no){
+    if (*no != NULL){
+        Ordem(&((*no)->Esq));image.png
+        printf("%d ", (*no)->num);
+        Ordem(&((*no)->Dir));
+    }
+
 }
 
 void PosOrdem (TipoApontador *no){
