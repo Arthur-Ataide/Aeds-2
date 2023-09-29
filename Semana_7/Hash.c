@@ -20,17 +20,18 @@ int soma(int* peso, char* nome){
     return valor;
 }
 
-// int formula(int pessoa){
-//     return (pessoa % 7);
-// }
+int formula(int pessoa){
+    return (pessoa % 7);
+}
 
 
-void insere(Pvetor trip, hash pessoa){
+void insere(Pvetor trip, hash pessoa, int* peso){
 
+    int valor = soma()
 
-    // if (trip->lista[formula()].nome == "\0"){
+    if (trip->lista[formula()].nome == "\0"){
 
-    // }
+    }
 }
 
 
